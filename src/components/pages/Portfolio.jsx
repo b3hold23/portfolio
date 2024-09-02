@@ -29,7 +29,7 @@ export default function Portfolio() {
 const pageStyle = {
     backgroundColor: '#8AB0AB', // Background color for the page
     padding: '20px',            // Add some padding around the content
-    minHeight: '100vh',         // Ensure the page takes up at least the full viewport height
+    minHeight: '80vh',         // Ensure the page takes up at least the full viewport height
 };
 
 const gridStyle = {
