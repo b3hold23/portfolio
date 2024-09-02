@@ -1,8 +1,19 @@
 export default function Portfolio() {
     return (
         <div>
-            <h1>Portfolio test page</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias eligendi exercitationem reiciendis asperiores, quasi culpa harum quo nisi. Nisi corrupti laudantium magni ab aperiam possimus veniam at dignissimos pariatur blanditiis!</p>
-        </div>
+
+        {/* Add clickable links to external websites */}
+        <ul>
+            <li>
+                <a href="https://www.example.com" target="_blank" rel="noopener noreferrer">Visit Example</a>
+            </li>
+            <li>
+                <a href="https://www.anotherexample.com" target="_blank" rel="noopener noreferrer">Visit Another Example</a>
+            </li>
+            <li>
+                <a href="https://www.github.com" target="_blank" rel="noopener noreferrer">My GitHub Profile</a>
+            </li>
+        </ul>
+    </div>
     );
-}
+}   
