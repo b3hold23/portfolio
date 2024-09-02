@@ -4,25 +4,25 @@ export default function Portfolio() {
             <ul style={gridStyle}>
                 <li style={itemStyle}>
                     <a href="https://github.com/b3hold23/readme-creator" target="_blank" rel="noopener noreferrer">
-                        <img src="Portfolio-Assets/command-line.JPG" alt="ReadMe Creator img" style={imageStyle} />
+                        <img src="/Portfolio-Assets/command-line.JPG" alt="ReadMe Creator img" style={imageStyle} />
                         <p style={linkStyle}>Readme Creator</p>
                     </a>
                 </li>
                 <li style={itemStyle}>
                     <a href="https://github.com/b3hold23/car-loan-payment" target="_blank" rel="noopener noreferrer">
-                        <img src="Portfolio-Assets/screenshot.png" alt="Car loan payment website" style={imageStyle} />
+                        <img src="/Portfolio-Assets/screenshot.png" alt="Car loan payment website" style={imageStyle} />
                         <p style={linkStyle}>Car Loan Payment</p>
                     </a>
                 </li>
                 <li style={itemStyle}>
                     <a href="https://github.com/b3hold23/weather-app" target="_blank" rel="noopener noreferrer">
-                        <img src="Portfolio-Assets/Completed site.JPG" alt="Weather Dashboard website homepage" style={imageStyle} />
+                        <img src="/Portfolio-Assets/Completed site.JPG" alt="Weather Dashboard website homepage" style={imageStyle} />
                         <p style={linkStyle}>Weather App</p>
                     </a>
                 </li>
                 <li style={itemStyle}>
                     <a href="https://github.com/b3hold23/employee-tracker" target="_blank" rel="noopener noreferrer">
-                        <img src="Portfolio-Assets/employee-tracker.JPG" alt="Employee Tracker website" style={imageStyle} />
+                        <img src="/Portfolio-Assets/employee-tracker.JPG" alt="Employee Tracker website" style={imageStyle} />
                         <p style={linkStyle}>Employee Tracker</p>
                     </a>
                 </li>
