@@ -1,23 +1,10 @@
-import ReactDOM from 'react-dom/client';
-// import { createBrowserRouter } from 'react-router-dom';
+import { StrictMode } from 'react'
+import { createRoot } from 'react-dom/client'
+import './index.css'
+import App from './App.jsx'
 
-
-import App from './App';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import './components/NavTabs.css';
-import '@fortawesome/fontawesome-free/css/all.min.css';
-
-// const router = createBrowserRouter([
-//     {
-//     path: '/',
-//     element: <App />,
-//     errorPage: <errorPage />,
-//     children: [
-
-//     ]
-//   },
-// ]);
-
-
-
-ReactDOM.createRoot(document.getElementById('root')).render(<App />);
+createRoot(document.getElementById('root')).render(
+  <StrictMode>
+    <App />
+  </StrictMode>,
+)
