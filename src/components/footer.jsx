@@ -1,8 +1,15 @@
 function Footer() {
     return (
-        <footer>
-            <p> Made with ❤️ by Angel Fernandez © {(new Date().getFullYear())}</p>
+        <footer className="bg-dark text-light text-center py-3 mt-auto">
+            <div className="container">
+                <h5>Made with ❤️ by Angel Fernandez</h5>
+                <p> © {new Date().getFullYear()}</p>
+            </div>
         </footer>
     );
 }
-  export default Footer;
+
+export default Footer;
+
+
+

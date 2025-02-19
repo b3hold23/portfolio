@@ -6,12 +6,12 @@ import Footer from './components/footer';
 
 function App() {
   return (
-    <div>
+    <div className="d-flex flex-column min-vh-100">
       <NavBar />
-      <Outlet />
-      <footer>
-        <Footer />
-      </footer>
+      <div className="flex-grow-1">
+        <Outlet />
+      </div>
+      <Footer />
     </div>
   );
 }
