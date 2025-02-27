@@ -1,16 +1,20 @@
-import { Outlet } from 'react-router-dom';
-
-import './App.css';
-import NavBar from './components/nav';
-import Footer from './components/footer';
+import Header from "./components/Header";
+import Nav from "./components/Nav";
+import Footer from "./components/Footer";
+import Page from "./components/Page";
+import { useLocation } from "react-router-dom";
 
 function App() {
+  const currentPage = useLocation().pathname;
+
   return (
-    <div className="d-flex flex-column min-vh-100">
-      <NavBar />
-      <div className="flex-grow-1">
-        <Outlet />
-      </div>
+    <div>
+      <Header>
+        <Nav currentPage={currentPage} />
+      </Header>
+      <main>
+        <Page currentPage={currentPage} />
+      </main>
       <Footer />
     </div>
   );
