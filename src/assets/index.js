@@ -3,3 +3,8 @@ export { default as ledWall } from './projects/ledWall.jpg';
 export { default as pastelPuzzels } from './projects/pastelPuzzels.jpg';
 export { default as surfReport } from './projects/surfReport.jpg';
 export { default as beeMine } from './projects/beeMine.jpg';
+export { default as CarPayment } from './projects/CarPayments.jpg';
+export { default as ReadMe } from './projects/ReadMe.jpg';
+export { default as socialNetwork } from './projects/socialNetwork.jpg';
+export { default as HealthPlanner } from './projects/HealthPlanner.jpg';
+export { default as Menu } from './projects/Menu.jpg';

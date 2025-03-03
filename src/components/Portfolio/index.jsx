@@ -12,31 +12,31 @@ function Portfolio() {
       repo: "https://github.com/b3hold23/Valentine"
     },
     {
-      name: 'pastelPuzzels',
+      name: 'CarPayment',
       description: 'HTML/CSS/JavaScript',
       link: "https://b3hold23.github.io/car-loan-payment/",
       repo: "https://github.com/b3hold23/car-loan-payment"
     },
     {
-      name: 'ledWall',
+      name: 'ReadMe',
       description: 'JavaScript/Node',
       link: "https://github.com/b3hold23/readme-creator",
       repo: "https://github.com/b3hold23/readme-creator"
     },
     {
-      name: 'ledWall',
+      name: 'socialNetwork',
       description: 'Typescript',
       link: "https://drive.google.com/file/d/1XQouG26ZJlw-ZVwM7uFXF7aBkkGHGgZC/view",
       repo: "https://github.com/b3hold23/social-network-api"
     },
     {
-      name: 'calculator',
+      name: 'HealthPlanner',
       description: 'Python/Flask/React',
       link: "https://github.com/Durfey32/Workout-with-Mental-Health",
       repo: "https://github.com/Durfey32/Workout-with-Mental-Health"
     },
     {
-      name: 'pastelPuzzels',
+      name: 'Menu',
       description: 'Python',
       link: "https://github.com/b3hold23/dinner-menu",
       repo: "https://github.com/b3hold23/dinner-menu"

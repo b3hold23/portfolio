@@ -12,6 +12,7 @@ function Resume() {
           <li>React</li>
           <li>Bootstrap</li>
         </ul>
+
         <h3>Back-end Proficiencies</h3>
         <ul className="skills">
           <li>APIs</li>
@@ -21,6 +22,11 @@ function Resume() {
           <li>MongoDB, Mongoose</li>
           <li>REST</li>
           <li>GraphQL</li>
+        </ul>
+
+        <h3>Certifications</h3>
+        <ul className="skills">
+          <li>Full Stack Web Development Certification - University of Utah</li>
         </ul>
       </div>
     </section>
