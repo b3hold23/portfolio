@@ -28,6 +28,9 @@ function Resume() {
         <ul className="skills">
           <li>Full Stack Web Development Certification - University of Utah</li>
         </ul>
+        <a href="https://docs.google.com/document/d/1v1_z_xXTXuTMhieKSG-P0Boi8WW3xhYdnaP3i6Ql3dQ/edit?usp=sharing">
+          <button className="resumeBtn"><span>Click Here to view my work Resume</span></button>
+        </a>
       </div>
     </section>
   );
